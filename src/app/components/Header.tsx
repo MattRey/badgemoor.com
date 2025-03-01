@@ -26,13 +26,15 @@ const Header = () => {
       <div className={`h-16 px-4 flex items-center justify-between fixed top-0 left-0 right-0 w-full z-50 transition-colors duration-200 ${
         isMenuOpen ? 'bg-[#2c2c2c]' : isScrolled ? 'bg-[#2c2c2cbb]' : 'bg-transparent'
       }`}>
-        <Image 
-          src="/header_logo.png" 
-          alt="Header Logo" 
-          height={35}
-          width={265}
-          className="h-[35px] w-auto"
-        />
+        <Link href="/">
+          <Image 
+            src="/header_logo.png" 
+            alt="Header Logo" 
+            height={35}
+            width={265}
+            className="h-[35px] w-auto"
+          />
+        </Link>
         
         {/* Hamburger Menu Button */}
         <button 

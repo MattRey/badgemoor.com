@@ -7,12 +7,12 @@ export const navigationLinks = [
   {
     id: 2,
     title: 'Lettings & Management',
-    href: '/lettings-management'
+    href: '/property-management'
   },
   {
     id: 3,
     title: 'Properties to Rent',
-    href: '/properties'
+    href: 'https://www.rightmove.co.uk/property-for-sale'
   },
   {
     id: 4,
@@ -22,6 +22,6 @@ export const navigationLinks = [
   {
     id: 5,
     title: 'Contact',
-    href: '/contact'
+    href: '/#footer'
   }
 ]; 
