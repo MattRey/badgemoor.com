@@ -1,4 +1,4 @@
-import Hero from '../../components/pages/Hero';
+import Hero from '../../components/Hero';
 
 export default function PropertyManagement() {
   return (
@@ -9,6 +9,8 @@ export default function PropertyManagement() {
           fullScreen={false}
           text="Lettings & Property Management"
           textPosition="left"
+          textBackground={true}
+          imageAlt='Photo of building with leaves'
         />
       </main>
     </div>

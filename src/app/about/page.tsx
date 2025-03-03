@@ -1,4 +1,4 @@
-import Hero from '../../components/pages/Hero';
+import Hero from '../../components/Hero';
 
 export default function About() {
   return (
@@ -9,6 +9,8 @@ export default function About() {
           fullScreen={true}
           text="About us"
           textPosition="centre"
+          textBackground={true}
+          imageAlt='Tree blossom'
         />
       </main>
     </div>

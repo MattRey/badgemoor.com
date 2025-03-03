@@ -1,4 +1,4 @@
-import Hero from '../../components/pages/Hero';
+import Hero from '../../components/Hero';
 
 export default function SearchAcquisition() {
   return (
@@ -9,6 +9,8 @@ export default function SearchAcquisition() {
           fullScreen={false}
           text="Search & Acquisition"
           textPosition="left"
+          textBackground={true}
+          imageAlt='Photo of London street'
         />
       </main>
     </div>

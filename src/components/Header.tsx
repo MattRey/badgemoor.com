@@ -54,7 +54,8 @@ const Header = () => {
               <li key={link.id}>
                 <Link 
                   href={link.href}
-                  className="text-white hover:text-gray-300 transition-colors"
+                  className="text-white transition-colors"
+                  {...(link.targetBlank ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                 >
                   {link.title}
                 </Link>
@@ -78,8 +79,9 @@ const Header = () => {
               <li key={link.id}>
                 <Link 
                   href={link.href}
-                  className="text-white hover:text-gray-300 transition-colors block text-xl py-2"
+                  className="text-white transition-colors block text-xl py-2"
                   onClick={() => setIsMenuOpen(false)}
+                  {...(link.targetBlank ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                 >
                   {link.title}
                 </Link>

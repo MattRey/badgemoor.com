@@ -12,7 +12,8 @@ export const navigationLinks = [
   {
     id: 3,
     title: 'Properties to Rent',
-    href: 'https://www.rightmove.co.uk/property-for-sale'
+    href: 'https://www.rightmove.co.uk/property-for-sale',
+    targetBlank: true
   },
   {
     id: 4,

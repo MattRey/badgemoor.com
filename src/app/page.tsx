@@ -1,4 +1,5 @@
-import Hero from '../components/pages/Hero';
+import Hero from '../components/Hero';
+import AnchorLinks from '../components/AnchorLinks';
 
 export default function Home() {
   return (
@@ -9,7 +10,13 @@ export default function Home() {
           fullScreen={true}
           text="Putting an expert in your corner."
           textPosition="centre"
-        />
+        >
+          <AnchorLinks 
+            links={[
+              { href: '#content' }
+            ]}
+          />
+        </Hero>
       </main>
     </div>
   );
