@@ -11,6 +11,7 @@ interface HeroProps {
   imageAlt?: string;
   textBackground?: boolean;
   children?: ReactNode;
+  id?: string;
 }
 
 export default function Hero({ 
@@ -20,10 +21,12 @@ export default function Hero({
   textPosition,
   imageAlt = "",
   textBackground = false,
-  children
+  children,
+  id
 }: HeroProps) {
   return (
     <div 
+      id={id}
       className={`
         relative w-full
         ${fullScreen ? 'h-screen' : 'h-[400px]'}

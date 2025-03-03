@@ -7,8 +7,7 @@ interface PageContentProps {
 export default function PageContent({ children }: PageContentProps) {
   return (
     <div 
-      id="content" 
-      className="min-h-[650px] w-screen relative bg-[var(--background)]"
+      className="min-h-[650px] w-screen relative bg-[var(--background)] py-20"
       style={{
         backgroundImage: 'url(/bg_logo.png)',
         backgroundPosition: 'bottom left',

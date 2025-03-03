@@ -1,6 +1,7 @@
 import Hero from '../components/Hero';
 import AnchorLinks from '../components/AnchorLinks';
 import PageContent from '../components/PageContent';
+import HomePage from '../components/pages/home/HomePage';
 
 export default function Home() {
   return (
@@ -18,10 +19,17 @@ export default function Home() {
             ]}
           />
         </Hero>
+        <div className="h-screen"></div>
+        <Hero
+          image="/blossom.webp"
+          fullScreen={false}
+          text="Welcome to Badgemoor"
+          textPosition="left"
+          textBackground={true}
+          id="content"
+        />
         <PageContent>
-          <p className="text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
+          <HomePage />
         </PageContent>
       </main>
     </div>

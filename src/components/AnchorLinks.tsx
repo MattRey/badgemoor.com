@@ -23,7 +23,7 @@ export default function AnchorLinks({ links }: AnchorLinksProps) {
             <span className="text-white mb-2">{link.text}</span>
           )}
           <svg 
-            className="w-6 h-6 text-[#d33520]" 
+            className="w-10 h-10 text-[#d33520]" 
             fill="none" 
             stroke="currentColor" 
             viewBox="0 0 24 24"
@@ -32,7 +32,7 @@ export default function AnchorLinks({ links }: AnchorLinksProps) {
               strokeLinecap="round" 
               strokeLinejoin="round" 
               strokeWidth={2} 
-              d="M19 9l-7 7-7-7"
+              d="M19 7l-7 10-7-10"
             />
           </svg>
         </a>

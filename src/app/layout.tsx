@@ -23,11 +23,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cormorantGaramond.variable} antialiased`}
+        className={`${cormorantGaramond.variable} antialiased relative min-h-screen`}
       >
-        <Header />
-        {children}
-        <Footer />
+        <div className="fixed-bg"></div>
+        <div className="relative z-10">
+          <Header />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
