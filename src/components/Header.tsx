@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <>
-      <div className={`h-16 px-4 flex items-center justify-between fixed top-0 left-0 right-0 w-full z-50 transition-colors duration-200 ${
+      <div className={`h-16 px-4 flex items-center justify-between fixed top-0 left-0 right-0 w-full z-50 transition-colors duration-200 text-xl ${
         isMenuOpen ? 'bg-[#2c2c2c]' : isScrolled ? 'bg-[#2c2c2cbb]' : 'bg-transparent'
       }`}>
         <Link href="/">
@@ -73,8 +73,8 @@ const Header = () => {
           ${isMenuOpen ? 'translate-y-[65px]' : '-translate-y-full'}
         `}
       >
-        <nav className="container mx-auto px-4 py-8">
-          <ul className="flex flex-col gap-6">
+        <nav className="flex flex-col items-center container mx-auto px-4 py-8">
+          <ul className="flex flex-col items-center gap-6">
             {navigationLinks.map((link) => (
               <li key={link.id}>
                 <Link 
