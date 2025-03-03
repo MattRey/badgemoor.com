@@ -7,7 +7,7 @@ export default function Home() {
     <div className="font-[family-name:var(--font-cormorant-garamond)]">
       <main className="flex flex-col">
         <Hero
-          image="/main_bridge.jpg"
+          image="/main_bridge.webp"
           fullScreen={true}
           text="Putting an expert in your corner."
           textPosition="centre"

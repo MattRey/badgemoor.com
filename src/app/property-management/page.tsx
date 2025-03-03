@@ -5,7 +5,7 @@ export default function PropertyManagement() {
     <div className="font-[family-name:var(--font-cormorant-garamond)]">
       <main className="flex flex-col gap-8">
         <Hero
-          image="/building_with_leaves.jpeg"
+          image="/building_with_leaves.webp"
           fullScreen={false}
           text="Lettings & Property Management"
           textPosition="left"

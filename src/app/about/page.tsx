@@ -5,7 +5,7 @@ export default function About() {
     <div className="font-[family-name:var(--font-cormorant-garamond)]">
       <main className="flex flex-col gap-8">
         <Hero
-          image="/blossom.jpeg"
+          image="/blossom.webp"
           fullScreen={true}
           text="About us"
           textPosition="centre"

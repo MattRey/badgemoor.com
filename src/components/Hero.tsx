@@ -35,7 +35,8 @@ export default function Hero({
         alt={imageAlt}
         fill
         className="object-cover"
-        quality={50}
+        quality={33}
+        loading="eager"
         priority
       />
       

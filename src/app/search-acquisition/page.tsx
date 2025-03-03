@@ -5,7 +5,7 @@ export default function SearchAcquisition() {
     <div className="font-[family-name:var(--font-cormorant-garamond)]">
       <main className="flex flex-col gap-8">
         <Hero
-          image="/street.jpeg"
+          image="/street.webp"
           fullScreen={false}
           text="Search & Acquisition"
           textPosition="left"
