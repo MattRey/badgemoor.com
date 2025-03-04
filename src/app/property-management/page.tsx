@@ -3,7 +3,7 @@ import PageContent from '../../components/PageContent';
 export default function PropertyManagement() {
   return (
     <div className="font-[family-name:var(--font-cormorant-garamond)]">
-      <main className="flex flex-col gap-8">
+      <main className="flex flex-col">
         <Hero
           image="/building_with_leaves.webp"
           fullScreen={false}
