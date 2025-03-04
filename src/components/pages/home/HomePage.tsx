@@ -19,7 +19,8 @@ const HomePage = () => {
         the stress and giving clarity of direction.
         <br />
         <br />
-        Please get in touch, we’d love to hear from you and see how we can help.
+        Please get in touch, we&apos;d love to hear from you and see how we can
+        help.
       </p>
     </div>
   );

@@ -11,7 +11,7 @@ export default function PageContent({ children }: PageContentProps) {
       style={{
         backgroundImage: 'url(/bg_logo.png)',
         backgroundPosition: 'bottom left',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
       }}
     >
       <div className="container">
