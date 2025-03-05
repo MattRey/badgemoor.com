@@ -4,7 +4,7 @@ import TestimonialsWidget from './TestimonialsWidget';
 const Footer = () => {
   return (
     <footer id="footer" className="bg-[var(--background)] border-t-2 border-[var(--primary)] py-12">
-      <div className="container mx-auto px-4">
+      <div className="container">
         <div className="flex justify-between flex-wrap gap-8">
           <LocationWidget />
           <TestimonialsWidget />

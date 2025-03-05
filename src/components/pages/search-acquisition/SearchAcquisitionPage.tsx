@@ -1,5 +1,6 @@
 import React from "react";
 import { Tabs } from "radix-ui";
+import WhyGrid from "./WhyGrid";
 
 const SearchAcquisitionPage = () => {
   return (
@@ -14,19 +15,19 @@ const SearchAcquisitionPage = () => {
       <Tabs.Root className="w-full" defaultValue="process">
         <Tabs.List className="flex border-b border-[var(--primary)] mb-8">
           <Tabs.Trigger
-            className="px-6 py-3 text-lg border-2 border-gray-400 bg-gray-400 data-[state=active]:pointer-events-none data-[state=active]:border-[var(--primary)] data-[state=active]:bg-[var(--primary)] data-[state=active]:font-medium hover:data-[state=inactive]:text-[var(--primary)] hover:data-[state=inactive]:bg-white"
+            className="px-6 py-3 text-lg border-2 border-gray-400 bg-gray-400 data-[state=active]:pointer-events-none data-[state=active]:border-[var(--primary)] data-[state=active]:bg-[var(--primary)] data-[state=active]:font-medium hover:data-[state=inactive]:text-[var(--primary)] hover:data-[state=inactive]:bg-white hover:data-[state=inactive]:border-white"
             value="process"
           >
             Our Process
           </Tabs.Trigger>
           <Tabs.Trigger
-            className="px-6 py-3 text-lg border-2 border-gray-400 bg-gray-400 data-[state=active]:pointer-events-none data-[state=active]:border-[var(--primary)] data-[state=active]:bg-[var(--primary)] data-[state=active]:font-medium hover:data-[state=inactive]:text-[var(--primary)] hover:data-[state=inactive]:bg-white"
+            className="px-6 py-3 text-lg border-2 border-gray-400 bg-gray-400 data-[state=active]:pointer-events-none data-[state=active]:border-[var(--primary)] data-[state=active]:bg-[var(--primary)] data-[state=active]:font-medium hover:data-[state=inactive]:text-[var(--primary)] hover:data-[state=inactive]:bg-white hover:data-[state=inactive]:border-white"
             value="why"
           >
             Why Use Us
           </Tabs.Trigger>
         </Tabs.List>
-        <Tabs.Content value="process" className="flex flex-col gap-8 px-4">
+        <Tabs.Content value="process" className="flex flex-col gap-8">
           <p className="text-2xl">
             Our process is tailored to the individual needs of the client but it
             will loosely follow this path:
@@ -47,12 +48,12 @@ const SearchAcquisitionPage = () => {
             <h4 className="text-xl font-medium mb-2">Area Orientation</h4>
             <p>
               London is a series of interconnected villages, each with its own
-              identity. If you’re new to the city or uncertain about your target
-              area, we will tour different areas and appraise their suitability
-              together. People tend to stick to what they know and we’ve found
-              over the years that an independent, objective view on all aspects
-              of the search helps to question priorities and sense check
-              decisions.
+              identity. If you&apos;re new to the city or uncertain about your
+              target area, we will tour different areas and appraise their
+              suitability together. People tend to stick to what they know and
+              we&apos;ve found over the years that an independent, objective
+              view on all aspects of the search helps to question priorities and
+              sense check decisions.
             </p>
           </section>
           <section>
@@ -72,8 +73,8 @@ const SearchAcquisitionPage = () => {
           <section>
             <h4 className="text-xl font-medium mb-2">Client Viewing</h4>
             <p>
-              Let’s face it, this is the fun part. You may fall for the first
-              property we see together but it can take longer to find
+              Let&apos;s face it, this is the fun part. You may fall for the
+              first property we see together but it can take longer to find
               perfection. The criteria can change once you see how reality lines
               up against your expectations and we keep a very open communication
               channel to ensure we are seeing the market through your eyes, even
@@ -99,21 +100,15 @@ const SearchAcquisitionPage = () => {
             <p>
               From the full renovation of your property to simply cleaning it
               prior to moving in, moving a piano or setting up utilities for an
-              easy move, there’s nothing that we and our network of vetted and
-              trusted contractors can not do to help you with a smooth
+              easy move, there&apos;s nothing that we and our network of vetted
+              and trusted contractors can not do to help you with a smooth
               transition into your new property.
             </p>
           </section>
         </Tabs.Content>
 
-        <Tabs.Content value="why" className="px-4">
-          <h3 className="font-medium mb-4">Why Use Us</h3>
-          <p className="text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
+        <Tabs.Content value="why" className="w-full">
+          <WhyGrid />
         </Tabs.Content>
       </Tabs.Root>
     </div>
