@@ -31,6 +31,7 @@ export default function Hero({
         relative w-full
         ${fullScreen ? 'h-screen' : 'h-[400px]'}
         py-[30px]
+        bg-[var(--background)]
       `}
     >
       <Image
