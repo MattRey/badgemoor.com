@@ -1,5 +1,6 @@
 import React from "react";
 import { Tabs } from "radix-ui";
+import Image from "next/image";
 
 const PropertyManagementPage = () => {
   return (
@@ -67,6 +68,15 @@ const PropertyManagementPage = () => {
             </ul>
         </Tabs.Content>
       </Tabs.Root>
+      
+      <Image 
+        src="/ombudsman_tsi.webp"
+        alt="Ombudsman TSI Logo"
+        width={500}
+        height={150}
+        className="mx-auto"
+        quality={50}
+      />
     </div>
   );
 };
