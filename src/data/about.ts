@@ -27,8 +27,8 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Aisling Vlasto",
     title: "Project Management",
-    email: "",
-    phone: "",
+    email: "admin@badgemoor.com",
+    phone: "+44 20 3674 0356",
     text: "Aisling, or Ash, is responsible for the company's accounts and invoicing. Her organisational skills allow the rest of us to get on with job at hand. In her previous life she was a successful estate agent in Chelsea and her familiarity with the industry is of great use in all aspects of what we do. Ash is also a yoga teacher and devoted mother of three.",
     imageSrc: "/team/ash.webp"
   },
