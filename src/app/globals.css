@@ -8,13 +8,13 @@
     scroll-behavior: smooth;
   }
   h1 {
-    @apply text-5xl;
+    @apply text-6xl;
   }
   h2 {
-    @apply text-4xl font-semibold;
+    @apply text-5xl font-semibold;
   }
   h3 {
-    @apply text-3xl font-semibold;
+    @apply text-4xl font-semibold;
   }
 }
 

@@ -9,18 +9,18 @@ interface AnchorLinksProps {
 
 export default function AnchorLinks({ links }: AnchorLinksProps) {
   return (
-    <div className="flex gap-8">
+    <div className="flex flex-col md:flex-row justify-center gap-8 w-full">
       {links.map((link, index) => (
         <a 
           key={index} 
           href={link.href}
           className={`
             flex flex-col items-center
-            ${link.text ? 'bg-[#2c2c2c66] px-4 py-2' : ''}
+            ${link.text ? 'bg-[#2c2c2c66] w-full md:min-w-40 px-auto md:px-4 py-2 gap-4' : ''}
           `}
         >
           {link.text && (
-            <span className="text-white mb-2">{link.text}</span>
+            <span className="text-white text-2xl mb-2 w-full min-w-40 text-center">{link.text}</span>
           )}
           <svg 
             className="w-10 h-10 text-[#d33520]" 

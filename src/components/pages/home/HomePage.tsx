@@ -1,4 +1,4 @@
-import HorizontalRule from "../HorizontalRule";
+import HorizontalRule from "../../HorizontalRule";
 
 const HomePage = () => {
   return (

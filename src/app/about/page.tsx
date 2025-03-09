@@ -1,5 +1,8 @@
-import Hero from '../../components/Hero';
-import PageContent from '../../components/PageContent';
+import AnchorLinks from "@/components/AnchorLinks";
+import Hero from "../../components/Hero";
+import PageContent from "../../components/PageContent";
+import TeamContent from "@/components/pages/about/TeamContent";
+
 export default function About() {
   return (
     <div className="font-[family-name:var(--font-cormorant-garamond)]">
@@ -10,14 +13,21 @@ export default function About() {
           text="About us"
           textPosition="centre"
           textBackground={true}
-          imageAlt='Tree blossom'
-        />
+          imageAlt="Tree blossom"
+        >
+          <AnchorLinks
+            links={[
+              { href: "#who", text: "Who We Are" },
+              { href: "#fees", text: "Fees" },
+              { href: "#clients", text: "Clients" },
+            ]}
+          />
+        </Hero>
+        <div className="h-screen"></div>
         <PageContent>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
+          <TeamContent id="who" />
         </PageContent>
       </main>
     </div>
   );
-} 
+}

@@ -60,7 +60,7 @@ const PropertyManagementPage = () => {
                 <li>A degree of professional separation from your tenant</li>
                 <li>Access to our large network of vetted and trusted contractors and specialists</li>
                 <li>A preemptive-maintenance approach to reduce the likelihood of unexpected repairs</li>
-                <li>No void/ management fee between tenancies</li>
+                <li>No void/management fee between tenancies</li>
                 <li>Simplified, attractive fee structure</li>
                 <li>Empty Property Management giving you peace of mind for second homes</li>
                 <li>Notable experience in refurbishment/ elective project management</li>
