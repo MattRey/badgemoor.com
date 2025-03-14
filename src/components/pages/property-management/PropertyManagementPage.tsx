@@ -121,7 +121,7 @@ const PropertyManagementPage = () => {
           </ul>
         </Tabs.Content>
       </Tabs.Root>
-      <div className="flex flex-row justify-center gap-4 mx-auto">
+      <div className="flex md:flex-row flex-col justify-center items-center gap-4 mx-auto">
         <Image
           src="/ombudsman_tsi.webp"
           alt="Ombudsman TSI Logo"
@@ -132,15 +132,15 @@ const PropertyManagementPage = () => {
         <Image
           src="/propertymark.webp"
           alt="Property Mark Logo"
-          width={274}
-          height={100}
+          width={183}
+          height={67}
           quality={50}
         />
         <Image
           src="/cmp.webp"
           alt="CMP Logo"
-          width={177}
-          height={100}
+          width={118}
+          height={67}
           quality={50}
         />
       </div>
