@@ -12,9 +12,14 @@ const LocationWidget = () => {
         <p>W14 8TS</p>
         <p>To contact specific team members please <Link href="/about/#who" className="text-white transition-colors">click here</Link></p>
       </div>
-      <a href="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">
-        Privacy Policy
-      </a>
+      <div className="flex flex-col gap-2">
+        <Link href="/privacy-policy" className="text-gray-300 text-[var(--primary)] hover:text-white transition-colors">
+          Privacy Policy
+        </Link>
+        <Link href="/complaints" className="text-gray-300 text-[var(--primary)] hover:text-white transition-colors">
+          Complaints Procedure
+        </Link>
+      </div>
     </div>
   );
 };

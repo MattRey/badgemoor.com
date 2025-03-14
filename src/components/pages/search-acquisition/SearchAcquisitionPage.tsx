@@ -15,13 +15,13 @@ const SearchAcquisitionPage = () => {
       <Tabs.Root className="w-full" defaultValue="process">
         <Tabs.List className="flex border-b border-[var(--primary)] mb-8">
           <Tabs.Trigger
-            className="px-6 py-3 text-lg border-2 border-gray-400 bg-gray-400 data-[state=active]:pointer-events-none data-[state=active]:border-[var(--primary)] data-[state=active]:bg-[var(--primary)] data-[state=active]:font-medium hover:data-[state=inactive]:text-[var(--primary)] hover:data-[state=inactive]:bg-white hover:data-[state=inactive]:border-white"
+            className="px-6 py-3 text-lg border border-white data-[state=active]:pointer-events-none data-[state=active]:border-[var(--primary)] data-[state=active]:bg-[var(--primary)] data-[state=active]:font-medium hover:data-[state=inactive]:text-[var(--primary)] hover:data-[state=inactive]:bg-white hover:data-[state=inactive]:border-white"
             value="process"
           >
             Our Process
           </Tabs.Trigger>
           <Tabs.Trigger
-            className="px-6 py-3 text-lg border-2 border-gray-400 bg-gray-400 data-[state=active]:pointer-events-none data-[state=active]:border-[var(--primary)] data-[state=active]:bg-[var(--primary)] data-[state=active]:font-medium hover:data-[state=inactive]:text-[var(--primary)] hover:data-[state=inactive]:bg-white hover:data-[state=inactive]:border-white"
+            className="px-6 py-3 text-lg border border-white data-[state=active]:pointer-events-none data-[state=active]:border-[var(--primary)] data-[state=active]:bg-[var(--primary)] data-[state=active]:font-medium hover:data-[state=inactive]:text-[var(--primary)] hover:data-[state=inactive]:bg-white hover:data-[state=inactive]:border-white"
             value="why"
           >
             Why Use Us
