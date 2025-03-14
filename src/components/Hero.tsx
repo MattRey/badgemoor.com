@@ -38,8 +38,7 @@ export default function Hero({
         src={image}
         alt={imageAlt}
         fill
-        className="object-cover"
-        quality={33}
+        className="object-cover opacity-50"
         loading="eager"
         priority
       />
@@ -53,7 +52,7 @@ export default function Hero({
           }
         `}>
           <h1 className={`
-            text-white text-4xl md:text-5xl lg:text-6xl
+            flex text-white text-4xl md:text-5xl lg:text-6xl
             ${textBackground ? 'p-4 bg-[#2c2c2c66]' : ''}
           `}>
             <span className="text-[#d33520] pr-5">{"//"}</span>

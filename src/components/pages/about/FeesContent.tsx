@@ -4,7 +4,7 @@ interface FeesContentProps {
 
 export default function FeesContent({ id }: FeesContentProps) {
   return (
-    <div id={id} className="max-w-7xl mx-auto px-4 py-16">
+    <div id={id} className="max-w-7xl mx-auto py-16">
       <h2 className="text-4xl md:text-5xl font-light mb-12">
         <span className="text-[#d33520] pr-5">{"//"}</span>
         Fees

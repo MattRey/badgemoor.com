@@ -11,7 +11,7 @@ export default function SearchAcquisition() {
           fullScreen={false}
           text="Search & Acquisition"
           textPosition="left"
-          textBackground={true}
+          textBackground={false}
           imageAlt='Photo of London street'
         />
         <PageContent>

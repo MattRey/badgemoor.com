@@ -10,7 +10,7 @@ export default function PropertyManagement() {
           fullScreen={false}
           text="Lettings & Property Management"
           textPosition="left"
-          textBackground={true}
+          textBackground={false}
           imageAlt='Photo of building with leaves'
         />
         <PageContent>

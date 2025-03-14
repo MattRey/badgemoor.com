@@ -146,21 +146,21 @@ const PropertyManagementPage = () => {
       </div>
       <div className="flex flex-col gap-4">
         <Link
-          href="/lettings-management-terms.pdf"
+          href="/LettingsManagementTerms.pdf"
           className="hover:text-[var(--primary)]"
           target="_blank"
         >
           Lettings & Property Management Terms of Business
         </Link>
         <Link
-          href="/cmp-certificate.pdf"
+          href="/CMPCertificate.pdf"
           className="hover:text-[var(--primary)]"
           target="_blank"
         >
           Client Money Protection Certificate
         </Link>
         <Link
-          href="/propertymark-conduct-rules.pdf"
+          href="/propertymark-conduct-and-membership-rules.pdf"
           className="hover:text-[var(--primary)]"
           target="_blank"
         >

@@ -13,10 +13,10 @@ const LocationWidget = () => {
         <p>To contact specific team members please <Link href="/about/#who" className="text-white transition-colors">click here</Link></p>
       </div>
       <div className="flex flex-col gap-2">
-        <Link href="/privacy-policy" className="text-gray-300 text-[var(--primary)] hover:text-white transition-colors">
+        <Link href="/privacy-policy" className="text-[var(--primary)] hover:text-white transition-colors">
           Privacy Policy
         </Link>
-        <Link href="/complaints" className="text-gray-300 text-[var(--primary)] hover:text-white transition-colors">
+        <Link href="/complaints" className="text-[var(--primary)] hover:text-white transition-colors">
           Complaints Procedure
         </Link>
       </div>

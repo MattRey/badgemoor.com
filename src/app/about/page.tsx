@@ -14,7 +14,7 @@ export default function About() {
           fullScreen={true}
           text="About us"
           textPosition="centre"
-          textBackground={true}
+          textBackground={false}
           imageAlt="Tree blossom"
         >
           <AnchorLinks

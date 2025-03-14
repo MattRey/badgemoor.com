@@ -8,10 +8,13 @@ const SearchAcquisitionPage = () => {
       <h2 className="text-4xl text-center">
         Whether you are searching to buy or to rent, specific about your needs
         or looking for suggestions, we can fill the gaps and take the hard work
-        off your hands. Our role is to guide you to the best results by ensuring
+        off your hands.
+      </h2>
+      <h3 className="text-3xl text-center">
+      Our role is to guide you to the best results by ensuring
         you are confident in the decisions you are making and that, contrary to
         social myth, you actually enjoy the process.
-      </h2>
+      </h3>
       <Tabs.Root className="w-full" defaultValue="process">
         <Tabs.List className="flex border-b border-[var(--primary)] mb-8">
           <Tabs.Trigger

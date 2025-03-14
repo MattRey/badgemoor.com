@@ -26,7 +26,7 @@ const Header = () => {
       <div className={`h-16 px-4 flex items-center justify-between fixed top-0 left-0 right-0 w-full z-50 transition-colors duration-200 text-xl ${
         isMenuOpen ? 'bg-[#2c2c2c]' : isScrolled ? 'bg-[#2c2c2cbb]' : 'bg-transparent'
       }`}>
-        <Link href="/">
+        <Link href="/" onClick={() => setIsMenuOpen(false)}>
           <Image 
             src="/header_logo.png" 
             alt="Header Logo" 
@@ -70,7 +70,7 @@ const Header = () => {
         className={`
           xl:hidden fixed inset-0 bg-[#2c2c2c] z-40
           transition-transform duration-300 ease-in-out
-          ${isMenuOpen ? 'translate-y-[65px]' : '-translate-y-full'}
+          ${isMenuOpen ? 'translate-y-16' : '-translate-y-full'}
         `}
       >
         <nav className="flex flex-col items-center container mx-auto px-4 py-8">
