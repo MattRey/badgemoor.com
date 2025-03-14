@@ -3,6 +3,7 @@ import Hero from "../../components/Hero";
 import PageContent from "../../components/PageContent";
 import TeamContent from "@/components/pages/about/TeamContent";
 import FeesContent from "@/components/pages/about/FeesContent";
+import TestimonialsContent from "@/components/pages/about/TestimonialsContent";
 
 export default function About() {
   return (
@@ -20,7 +21,7 @@ export default function About() {
             links={[
               { href: "#who", text: "Who We Are" },
               { href: "#fees", text: "Fees" },
-              { href: "#clients", text: "Clients" },
+              { href: "#testimonials", text: "Testimonials" },
             ]}
           />
         </Hero>
@@ -28,6 +29,7 @@ export default function About() {
         <PageContent>
           <TeamContent id="who" />
           <FeesContent id="fees" />
+          <TestimonialsContent id="testimonials" />
         </PageContent>
       </main>
     </div>
