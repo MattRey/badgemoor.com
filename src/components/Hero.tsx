@@ -40,6 +40,7 @@ export default function Hero({
         fill
         className="object-cover opacity-50"
         loading="eager"
+        quality={50}
         priority
       />
       
