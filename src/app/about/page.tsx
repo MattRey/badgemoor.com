@@ -2,6 +2,7 @@ import AnchorLinks from "@/components/AnchorLinks";
 import Hero from "../../components/Hero";
 import PageContent from "../../components/PageContent";
 import TeamContent from "@/components/pages/about/TeamContent";
+import FeesContent from "@/components/pages/about/FeesContent";
 
 export default function About() {
   return (
@@ -26,6 +27,7 @@ export default function About() {
         <div className="h-screen"></div>
         <PageContent>
           <TeamContent id="who" />
+          <FeesContent id="fees" />
         </PageContent>
       </main>
     </div>

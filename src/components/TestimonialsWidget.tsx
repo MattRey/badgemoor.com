@@ -25,7 +25,7 @@ const TestimonialsWidget = () => {
   return (
     <div className="flex flex-col gap-4 max-w-md">
       <h3 className="text-white">What our clients say:</h3>
-      <div className="min-h-[150px] text-gray-300">
+      <div className="min-h-[150px] text-gray-300 text-xl">
         <p className="transition-opacity duration-500 line-clamp-[7] overflow-hidden">
           &quot;{testimonials[currentIndex].text}&quot;
         </p>
