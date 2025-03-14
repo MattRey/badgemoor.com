@@ -12,7 +12,7 @@ export const navigationLinks = [
   {
     id: 3,
     title: 'Properties to Rent',
-    href: 'https://www.rightmove.co.uk/property-for-sale',
+    href: 'https://www.zoopla.co.uk/find-agents/branch/badgemoor-london-160118/',
     targetBlank: true
   },
   {
