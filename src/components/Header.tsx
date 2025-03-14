@@ -31,7 +31,7 @@ const Header = () => {
             src="/header_logo.png" 
             alt="Header Logo" 
             height={35}
-            width={265}
+            width={252}
             className="h-[35px] w-auto"
           />
         </Link>
