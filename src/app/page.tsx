@@ -25,7 +25,7 @@ export default function Home() {
           fullScreen={false}
           text="Welcome to Badgemoor"
           textPosition="left"
-          textBackground={true}
+          textBackground={false}
           id="content"
         />
         <PageContent>
