@@ -156,6 +156,7 @@ const PropertyManagementPage = () => {
           href="/CMPCertificate.pdf"
           className="hover:text-[var(--primary)]"
           target="_blank"
+          locale={false}
         >
           Client Money Protection Certificate
         </Link>
@@ -163,6 +164,7 @@ const PropertyManagementPage = () => {
           href="/propertymark-conduct-and-membership-rules.pdf"
           className="hover:text-[var(--primary)]"
           target="_blank"
+          locale={false}
         >
           Client Money Protection Rules
         </Link>
