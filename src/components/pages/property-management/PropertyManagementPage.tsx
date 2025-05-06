@@ -166,6 +166,13 @@ const PropertyManagementPage = () => {
         >
           Client Money Protection Rules
         </Link>
+        <Link
+          href="/TenantApplicationForm.pdf"
+          className="hover:text-[var(--primary)]"
+          target="_blank"
+        >
+          Application to rent
+        </Link>
       </div>
     </div>
   );
