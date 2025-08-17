@@ -13,7 +13,7 @@ export default function TestimonialsContent({ id }: TestimonialsContentProps) {
       </h2>
 
       <div className="space-y-12 text-xl">
-        {testimonials.map((testimonial) => (
+        {testimonials.reverse().map((testimonial) => (
           <div key={testimonial.id} className="space-y-4">
             <p>&quot;{testimonial.text}&quot;</p>
             <p className="text-right">— {testimonial.author}</p>
@@ -22,4 +22,4 @@ export default function TestimonialsContent({ id }: TestimonialsContentProps) {
       </div>
     </div>
   );
-} 
+}

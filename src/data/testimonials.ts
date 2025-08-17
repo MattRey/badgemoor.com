@@ -27,7 +27,7 @@ export const testimonials = [
   {
     id: 6,
     text: "I knew of James before we even worked together. His reputation of being the best in his industry preceded him. The words Intent and Great Resolve come to mind. Having now worked with James I can see why. Not only is James extremely professional and knowledgeable at what he does but he always has his clients best interests at heart with the most tactful air of discretion I know. James could always be trusted to work with you and achieve all goals set, even with a five hour time difference. His personable nature makes him a complete pleasure to work with and I would highly recommend him to any future clients.",
-    author: "Miss Joe C.",
+    author: "Miss Jo C.",
   },
   {
     id: 7,
@@ -42,6 +42,16 @@ export const testimonials = [
   {
     id: 9,
     text: "James is extremely knowledgeable about the London property market. His customized and personalized service has made a real difference in helping us with our property investment and management, which can be a real pain especially as an overseas investor. I like the fact that he deals with a limited number of clients at a given time, which gives him the ability to focus on his client's needs and he has his client's interest at heart, He has a small but efficient team which can assist in handling different aspects of your property so the one stop shop service is highly efficient. I would highly recommend him to anyone who is interested in considering property investments in London",
-    author: "Mrs Vivien K",
+    author: "Mrs Vivien K.",
+  },
+  {
+    id: 10,
+    text: "James came highly recommended to us and we can only echo all the good things we were told. He helped us as international clients to find and purchase a London property and then effortlessly oversaw the renovations. Always listening to our needs, responding without ever having to chase him, James came up with the goods on every aspect of the project. Costs were as the initial quote, total transparency throughout - no hidden extras or surprises.  We now have our new London home and couldn’t be happier. Only one small regret … we wish we’d called him sooner!",
+    author: "Mr & Mrs B.",
+  },
+  {
+    id: 11,
+    text: "We were referred to James by a mutual friend — and for good reason. Although we thought we had a good understanding of the London property market, James’s expertise was on an entirely different level. He worked with a very specific brief and delivered exactly what we were looking for. His knowledge of pricing, light aspects, potential planning permissions, and the overall feel of different neighbourhoods is exceptional. With James, you truly feel like you’re in safe, capable hands. Thank you, James!",
+    author: "Mr & Mrs H.",
   },
 ];
