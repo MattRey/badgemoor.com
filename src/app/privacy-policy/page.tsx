@@ -5,7 +5,7 @@ export default function Privacy() {
     <div className="font-[family-name:var(--font-cormorant-garamond)]">
       <main className="flex flex-col">
         <PageContent>
-          <div className="max-w-7xl mx-auto px-4 py-16">
+          <div className="max-w-7xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-light mb-12">
               <span className="text-[#d33520] pr-5">{"//"}</span>
               Privacy Policy: Badgemoor Ltd.
