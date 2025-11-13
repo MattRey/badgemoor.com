@@ -6,7 +6,7 @@ const LocationWidget = () => {
       <h3 className="text-white">Contact us:</h3>
       <div className="text-gray-300 text-xl">
         <p>Badgemoor Limited,</p>
-        <p>91 Twickenham Roadi,</p>
+        <p>91 Twickenham Road,</p>
         <p>Teddington,</p>
         <p>England</p>
         <p>TW11 8AN</p>
