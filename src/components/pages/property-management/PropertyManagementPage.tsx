@@ -159,12 +159,19 @@ const PropertyManagementPage = () => {
         >
           Client Money Protection Certificate
         </Link>
-        <Link
-          href="/PropertymarkConduct.pdf"
+        <a
+          href="https://www.propertymark.co.uk/professional-standards/rules.html#obligations"
           className="hover:text-[var(--primary)]"
           target="_blank"
         >
           Client Money Protection Rules
+        </a>
+        <Link
+          href="/CompanyAdvantageCertificate.pdf"
+          className="hover:text-[var(--primary)]"
+          target="_blank"
+        >
+          Propertymark company advantage certificate
         </Link>
         <Link
           href="/TenantApplicationForm.pdf"
